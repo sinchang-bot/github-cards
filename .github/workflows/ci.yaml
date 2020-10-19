@@ -17,6 +17,6 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: '12.x'
-    - run: npm install uglify-js@2.8.29 -g
+    - run: npm install uglify-js@2.8.29 clean-css-cli -g
     - run: make build
     - run: ls
